@@ -27,8 +27,8 @@ namespace Psychopath
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Maniac - < /> Nickel-Hydrogen-Aluminum code");
-            Console.WriteLine("Loading mani4c library...");
+            Console.WriteLine("Psychopath [Process Replacer] - < /> Nickel-Hydrogen-Aluminum code");
+            Console.WriteLine("Loading psych0p4th library...");
             if (args.Length == 0)
                 ShowUsageAndExit();
             if (LoadPsych0p4th() != 0)
