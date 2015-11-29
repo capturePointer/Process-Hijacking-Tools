@@ -1,0 +1,19 @@
+﻿Build started 11/26/2015 5:03:24 PM.
+     1>Project "D:\OutDev\Maniac\v1\Maniac\mani4c\mani4c.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\\" /AI"C:\Program Files (x86)\Windows Kits\8.1\References\CommonConfiguration\Neutral" /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\Facades\\" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\mani4c.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\mscorlib.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.5\System.Xml.dll" /analyze- /errorReport:prompt /clr:nostdlib mani4c.cpp
+         mani4c.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\OutDev\Maniac\v1\Maniac\Debug\mani4c.dll" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\OutDev\Maniac\v1\Maniac\Debug\mani4c.pdb" /ASSEMBLYDEBUG /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\app.res
+         Debug\AssemblyInfo.obj
+         Debug\dllmain.obj
+         Debug\mani4c.obj
+         Debug\Stdafx.obj
+         "Debug\.NETFramework,Version=v4.5.AssemblyAttributes.obj"
+            Creating library D:\OutDev\Maniac\v1\Maniac\Debug\mani4c.lib and object D:\OutDev\Maniac\v1\Maniac\Debug\mani4c.exp
+         mani4c.vcxproj -> D:\OutDev\Maniac\v1\Maniac\Debug\mani4c.dll
+     1>Done Building Project "D:\OutDev\Maniac\v1\Maniac\mani4c\mani4c.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.48
