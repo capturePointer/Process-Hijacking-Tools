@@ -11,6 +11,7 @@ namespace PurpleSyringe
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("PurpleSyringe v1.1.0 - < /> Nickel-Hydrogen-Aluminum code");
             if (args.Length != 3 && args.Length != 0)
                 ShowUsageAndExit();
             if (args.Length == 0)
