@@ -1,3 +1,14 @@
+#VS Binaries
+bin
+obj
+*.vs
+*.sdf
+ipch
+Debug
+Release
+*.exe
+*.dll
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
