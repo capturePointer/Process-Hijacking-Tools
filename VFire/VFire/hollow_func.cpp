@@ -241,7 +241,7 @@ int ph_init(void)
 	return (pNtQueryInformationProcess =
 		(NtQueryInformationProcessFunc)GetProcAddress(ntdll, "NtQueryInformationProcess")) &&
 		(pNtUnmapViewOfSection =
-			(NtUnmapViewOfSectionFunc)GetProcAddress(ntdll, "NtUnmapViewOfSection"));
+		(NtUnmapViewOfSectionFunc)GetProcAddress(ntdll, "NtUnmapViewOfSection"));
 }
 
 int create_hollowed_proc(const TCHAR *name, TCHAR *cmd_line, void *map)

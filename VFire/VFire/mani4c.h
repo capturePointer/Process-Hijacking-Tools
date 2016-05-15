@@ -9,7 +9,6 @@
 using namespace System;
 
 namespace mani4c {
-
 	public ref class Mani4cManaged
 	{
 		// TODO: Add your methods for this class here.

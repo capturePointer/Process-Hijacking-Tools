@@ -4,7 +4,6 @@
 //
 #include "stdafx.h"
 
-
 #include <stddef.h>
 #include <Windows.h>
 #include <stdio.h>
@@ -54,7 +53,6 @@ int x_inJx_procZss(char *input_x, char *target_x)
 	void *map;
 	TCHAR *path;
 
-
 	if (!(map = read_file(input_x))) {
 		return PROCESS_INJECT_READ_ERROR;
 	}
@@ -70,4 +68,3 @@ int x_inJx_procZss(char *input_x, char *target_x)
 	}
 	return PROCESS_INJECT_SUCCESS;
 }
-

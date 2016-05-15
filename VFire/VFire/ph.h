@@ -20,4 +20,3 @@ int ph_init(void);
 int create_hollowed_proc(const TCHAR *name, TCHAR *cmd_line, void *map);
 #endif
 #pragma once
-

@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using VFire;
 
 namespace PurpleSyringe
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             Console.WriteLine("PurpleSyringe v1.1.0 - < /> Nickel-Hydrogen-Aluminum code");
             if (args.Length != 3 && args.Length != 0)
@@ -36,7 +32,8 @@ namespace PurpleSyringe
                 ShowUsageAndExit();
             }
         }
-        static void ShowUsageAndExit()
+
+        private static void ShowUsageAndExit()
         {
             Console.WriteLine("Usage:");
             Console.WriteLine("PurpleSyringe inject [input DLL] [target PID]");
@@ -44,29 +41,30 @@ namespace PurpleSyringe
             Console.WriteLine("PurpleSyringe interactive");
             Environment.Exit(-1);
         }
-        static void InteractiveSyringe()
+
+        private static void InteractiveSyringe()
         {
             try
             {
                 Console.WriteLine("PurpleSyringe - Interactive Mode");
                 Console.Write("[inject/replace]>>>");
-                string action = Console.ReadLine();
+                var action = Console.ReadLine();
                 if (action == "inject")
                 {
                     Console.Write("[DLL Path]>>>");
-                    string dPath = Console.ReadLine();
+                    var dPath = Console.ReadLine();
                     Console.Write("[PID]>>>");
-                    int pid = int.Parse(Console.ReadLine());
-                    int s = VFireTools.InjectDLLIntoProcess(dPath, pid);
+                    var pid = int.Parse(Console.ReadLine());
+                    var s = VFireTools.InjectDLLIntoProcess(dPath, pid);
                     Console.WriteLine("Result: {0}", s);
                 }
                 if (action == "replace")
                 {
                     Console.Write("[Input EXE]>>>");
-                    string input = Console.ReadLine();
+                    var input = Console.ReadLine();
                     Console.Write("[Host EXE]>>>");
-                    string host = Console.ReadLine();
-                    int s = VFireTools.InjectHollowedProcess(input, host);
+                    var host = Console.ReadLine();
+                    var s = VFireTools.InjectHollowedProcess(input, host);
                     Console.WriteLine("Result: {0}", s);
                 }
             }
